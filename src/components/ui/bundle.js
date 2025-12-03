@@ -1,0 +1,39 @@
+export const mockCategories = [
+  { name: 'T-Shirts', icon: '👕' },
+  { name: 'Jacket', icon: '🧥' },
+  { name: 'Shirt', icon: '👔' },
+  { name: 'Jeans', icon: '👖' },
+  { name: 'Bag', icon: '🎒' },
+  { name: 'Shorts', icon: '🩳' },
+  { name: 'Watches', icon: '⌚' },
+  { name: 'Cap', icon: '🧢' },
+  { name: 'All Category', icon: '📦' },
+];
+
+export const mockFlashSale = [
+  { id: 1, name: "Ethical Modal Performance T-Shirt", price: 295000, salePrice: 255000, img: "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSCzAepDAafGtxiD-_dJtB_k0Ozfs_NAH46ANQ_Lr1xlM1hAXHjGigMCOCSCfe1BhpjJKYwqXE8B7S6PDNnvBvW-9E0z7BfMdhUgiCgK7iit2axrTHFEUHA&usqp=CAc", sold: 10, total: 50, image: ["https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRD8VpNUSRfqU3O6MehpkjDqTCr_sNtBlS6mnscFGQ_mW_-g1BUzUxdBVNmO3eSarxZh9rkOUxCIRJor9bH6DceStkakWwoZN9xOi6jyPWA2uVSFF-I&usqp=CAc", "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTxxm08iAL2ogstzKIjIIFKMljLYuUJYdiRihaydpQHaO8FlGYiH0pt7rYzhBk3n-6ElwcDAJhpBzoXEvy8OK2g5bh4pdEU1DuYiivl84yEVCWQi2XuPw&usqp=CAc", "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTYxIY6ygyWEtrQcocwUAVz8NZY4WGttKtKImjFzeW42CnDexU6y0s22pK27lmKoQSeZjL3J8IEDQvTwDTBTKCzlAVecwX9Mj-47ypJenQej9X26AA&usqp=CAc", "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/48/9786504/1.jpg?2415"]},
+  { id: 2, name: "Gentleman's Summer Gray Tee", price: 150000, salePrice: 99000, img: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRgDLGdx6Sh3Lp7nT1zUawmEnLgUKLNX_fcPOf62mZSyii48S5INWRBg3Q1qbwujMXoums_nmX6a0mz0W4ynrgj2CAqnzVO1BDhNRlA3Gt5kZ6_s3Q55sh7jg&usqp=CAc",
+  image: ["https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRD8VpNUSRfqU3O6MehpkjDqTCr_sNtBlS6mnscFGQ_mW_-g1BUzUxdBVNmO3eSarxZh9rkOUxCIRJor9bH6DceStkakWwoZN9xOi6jyPWA2uVSFF-I&usqp=CAc", "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTxxm08iAL2ogstzKIjIIFKMljLYuUJYdiRihaydpQHaO8FlGYiH0pt7rYzhBk3n-6ElwcDAJhpBzoXEvy8OK2g5bh4pdEU1DuYiivl84yEVCWQi2XuPw&usqp=CAc", "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTYxIY6ygyWEtrQcocwUAVz8NZY4WGttKtKImjFzeW42CnDexU6y0s22pK27lmKoQSeZjL3J8IEDQvTwDTBTKCzlAVecwX9Mj-47ypJenQej9X26AA&usqp=CAc", "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/48/9786504/1.jpg?2415"],
+  sold: 30, total: 40 },
+  { id: 3, name: "OutDoor Camera Backpack 20L", price: 320000, salePrice: 250000, img: "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSBYI-bacuZUQFud_F-0-ujpIBSTeE6Fx4z9E9goBsNQhzwPslSyEMimmGu0VQCxBPSND5q9OaGxe5LARVvz5uIJLTh4tEuP_hU69NgMk0IZa2CMMUV3bYO&usqp=CAc", sold: 5, total: 100, image: ["https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRD8VpNUSRfqU3O6MehpkjDqTCr_sNtBlS6mnscFGQ_mW_-g1BUzUxdBVNmO3eSarxZh9rkOUxCIRJor9bH6DceStkakWwoZN9xOi6jyPWA2uVSFF-I&usqp=CAc", "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTxxm08iAL2ogstzKIjIIFKMljLYuUJYdiRihaydpQHaO8FlGYiH0pt7rYzhBk3n-6ElwcDAJhpBzoXEvy8OK2g5bh4pdEU1DuYiivl84yEVCWQi2XuPw&usqp=CAc", "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTYxIY6ygyWEtrQcocwUAVz8NZY4WGttKtKImjFzeW42CnDexU6y0s22pK27lmKoQSeZjL3J8IEDQvTwDTBTKCzlAVecwX9Mj-47ypJenQej9X26AA&usqp=CAc", "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/48/9786504/1.jpg?2415"]},
+  { id: 4, name: "Cloudy Chic Gray Pencil Skirt", price: 110000, salePrice: 87000, img: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSGNAISdxIxUVKH3xHqbfUXr_s1WtlMOm4VDh1DVxKylB1bda0_UwkZNrAXUUQ9vo7gdmsPq5k2Zr3jzuBQNdK4A9TjXKaflHLPzt0-UVewIeo68HcMm2oTAw&usqp=CAc", sold: 25, total: 50, image: ["https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRD8VpNUSRfqU3O6MehpkjDqTCr_sNtBlS6mnscFGQ_mW_-g1BUzUxdBVNmO3eSarxZh9rkOUxCIRJor9bH6DceStkakWwoZN9xOi6jyPWA2uVSFF-I&usqp=CAc", "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTxxm08iAL2ogstzKIjIIFKMljLYuUJYdiRihaydpQHaO8FlGYiH0pt7rYzhBk3n-6ElwcDAJhpBzoXEvy8OK2g5bh4pdEU1DuYiivl84yEVCWQi2XuPw&usqp=CAc", "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTYxIY6ygyWEtrQcocwUAVz8NZY4WGttKtKImjFzeW42CnDexU6y0s22pK27lmKoQSeZjL3J8IEDQvTwDTBTKCzlAVecwX9Mj-47ypJenQej9X26AA&usqp=CAc", 'https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/48/9786504/1.jpg?2415']},
+  { id: 5, name: "The Essential Hoodie, Black", price: 450000, salePrice: 370000, img: "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQLGLdEwwFo2iyRzrF28gOXHbHcEjCq2rfwziBNkG-dJFf7ESPgBF4m_EE_A6IBjHYprJMu2gZxhnkt6HIXdCCPa7u8o5zC5zmC_cchFWcDvYgCZDpYl99vjQ&usqp=CAc", sold: 15, total: 30, image: ["https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRD8VpNUSRfqU3O6MehpkjDqTCr_sNtBlS6mnscFGQ_mW_-g1BUzUxdBVNmO3eSarxZh9rkOUxCIRJor9bH6DceStkakWwoZN9xOi6jyPWA2uVSFF-I&usqp=CAc", "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTxxm08iAL2ogstzKIjIIFKMljLYuUJYdiRihaydpQHaO8FlGYiH0pt7rYzhBk3n-6ElwcDAJhpBzoXEvy8OK2g5bh4pdEU1DuYiivl84yEVCWQi2XuPw&usqp=CAc", "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTYxIY6ygyWEtrQcocwUAVz8NZY4WGttKtKImjFzeW42CnDexU6y0s22pK27lmKoQSeZjL3J8IEDQvTwDTBTKCzlAVecwX9Mj-47ypJenQej9X26AA&usqp=CAc", "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/48/9786504/1.jpg?2415"] },
+];
+
+export const mockProducts = [
+  { id: 10, name: "Urban Edge Slim Fit Jeans", price: 233000, rating: 4.8, reviews: 256, img: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT1EVagTVxrEZevVhZ6U0ECat4k0eT7K9d4mzzTBGCeWCOk8sqN9_R30RuSMW4fk2GYpQfB5qgtltWMEh2teTZTQ9EPs_-7kn5Nhua6jZmj&usqp=CAc" },
+  { id: 11, name: "Comfortable Merino Long-Sleeve", price: 178000, rating: 4.5, reviews: 102, img: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSe1TKYBcnioWhm71UUKlIlUkl0ItXzAwGirBxLWrFWRRldvKvxRzezOag9cLNYPqRcqeoitqxMNXDFJEat_I2cgNw1NY1JadVWU74WtTaPidrpQNfMzm0Q&usqp=CAc" },
+  { id: 12, name: "StyleSavvy Men's Leather Loafers", price: 199000, rating: 4.9, reviews: 350, img: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSMNZmZFsSu6ZNftrxBIZr2FAUiFGxbYU7gECndnzScif0AYBWPmoUP6G8Dmnt_nlyp6JXDCoJJwce83MgtWKg_8aZGz8mAYddAE020BC0JLMpBp5LjeUea&usqp=CAc" },
+  { id: 13, name: "Essential Long-Sleeve Cotton Tee", price: 120000, rating: 4.6, reviews: 88, img: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQelhDNPatpY-9PN5bv5vTKqaOFdqlIbzcGt_ZCl-4QHuxfSf1kbnEBF03V2EJotCkR9ZQSknoad-dLHeWiAB2mbDS6y0EDxd3_lq1qnbo&usqp=CAc" },
+  { id: 14, name: "ClassicGoat Men's Oxford Shoes", price: 199000, rating: 4.7, reviews: 140, img: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSt2NDN_35Z_ek31aV0aQF4dq2ZGI0E1ak8NeJiyxSZMWy2RbazilBZbvPYrltaI9Z9jUAxy-je6gnqlC3WRsskl-rS6IA9L9EIZ-NS6_l7X8f8EW96xPYY&usqp=CAc" },
+  { id: 15, name: "UrbanPixie Mens Short Chinos", price: 182000, rating: 4.8, reviews: 210, img: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRyI7XrLgiFF2IQ1YoUfMdOrn0ZAPg1XSl2D-QwMpdEeHo9kU1JeRqkx_hR-OkImsUmqTsVGlTn3y-Q-Y3kOngKETqWHXuEzjRISGbPALH15BQ75gJuF9sh&usqp=CAc" },
+  { id: 16, name: "ChicCarry - Diaper Bag/Work Collection", price: 550000, rating: 4.9, reviews: 420, img: "https://nawao.com/cdn/shop/files/IMG_4817.jpg?v=1732639850&width=1900" },
+  { id: 17, name: "Sophisticated Women's Trench Coat", price: 324000, rating: 4.5, reviews: 95, img: "https://nawao.com/cdn/shop/files/128353833c.jpg?v=1742557287&width=270" },
+];
+
+export const mockStores = [
+  { id: 1, name: "Nike Gao Mall", followers: "392rb", rating: 4.9, img: "https://placehold.co/60x60/38B2AC/FFFFFF?text=N" },
+  { id: 2, name: "Barambah Disaster Mall", followers: "25rb", rating: 4.8, img: "https://placehold.co/60x60/4299E1/FFFFFF?text=B" },
+  { id: 3, name: "Guiness Store Mall", followers: "15rb", rating: 4.7, img: "https://placehold.co/60x60/68D391/FFFFFF?text=G" },
+  { id: 4, name: "Alodia Well Mall", followers: "12rb", rating: 4.9, img: "https://placehold.co/60x60/F6AD55/FFFFFF?text=A" },
+];
