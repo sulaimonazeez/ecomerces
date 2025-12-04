@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const dev = false;
-const baseURL = import.meta.env.VITE_API_URL;
+const baseURL = "https://ecomercebackend-five.vercel.app/";
 const axiosInstance = axios.create({
   baseURL: baseURL,
   headers: {
